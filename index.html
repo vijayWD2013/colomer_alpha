@@ -54,7 +54,7 @@
 				}
 				var ss_image = '<img src="'+sss+'" width="'+$(window).width()+'" height="'+$(window).height()+'" />';
 				$('#page_splash').html(ss_image);				
-				$.ajax({
+				/*$.ajax({
 						type       : "POST",
 						url        : "http://system-hostings.dev.wiredelta.com/colomer/api/offers",
 						crossDomain: true,
@@ -74,7 +74,8 @@
 						error      : function() {
 							alert('Not working!');
 						}
-				});
+				});*/
+				setTimeout('load_page("home")', 2000);
 			}
 		</script>
 	</body>
